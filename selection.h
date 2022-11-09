@@ -1,16 +1,8 @@
-#pragma once
+#ifndef SELECTION_H
+#define SELECTION_H
 
-#include <string>
+extern void selectorInit();
+extern int autonSelection;
 
-//selector configuration
-#define HUE 360
-#define DEFAULT 1
-#define AUTONS "Front", "Back", "Do Nothing"
 
-namespace selector{
-
-extern int auton;
-const char *b[] = {AUTONS, ""};
-void init(int hue = HUE, int default_auton = DEFAULT, const char **autons = b);
-
-}
+#endif
