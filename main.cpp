@@ -2,6 +2,10 @@
 #include "selection.h"
 #include "globals.hpp"
 
+void initialize() {
+  selectorInit();
+}
+
 void autonomous() {
 
 /* ADD THE FOLLOWING TO YOUR AUTONOMOUS FUNTION IN MAIN.CPP */
